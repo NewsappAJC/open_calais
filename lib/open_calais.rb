@@ -14,7 +14,8 @@ module OpenCalais
     :license_id                    => 'X-AG-Access-Token',
     :content_type                  => 'Content-Type',
     :output_format                 => 'outputFormat',
-    :language                      => 'x-calais-language'
+    :language                      => 'x-calais-language',
+    :omit_original                 => 'omitOutputtingOriginalText'
   }
 
   CONTENT_TYPES = {

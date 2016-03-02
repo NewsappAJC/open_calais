@@ -25,7 +25,8 @@ module OpenCalais
           OpenCalais::HEADERS[:license_id]    => api_key,
           OpenCalais::HEADERS[:content_type]  => OpenCalais::CONTENT_TYPES[:raw],
           OpenCalais::HEADERS[:output_format] => OpenCalais::OUTPUT_FORMATS[:json],
-          OpenCalais::HEADERS[:language]      => 'English'
+          OpenCalais::HEADERS[:language]      => 'English',
+          OpenCalais::HEADERS[:omit_original] => 'true'
         },
         :ssl => {:verify => false},
         :url => endpoint
